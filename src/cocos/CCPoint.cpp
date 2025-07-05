@@ -1,5 +1,6 @@
 #include <cocos2d.h>
 #include <sol/sol.hpp>
+#include <Geode/Geode.hpp>
 
 using namespace cocos2d;
 

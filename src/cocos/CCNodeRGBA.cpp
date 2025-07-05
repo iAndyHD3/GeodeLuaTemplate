@@ -4,6 +4,7 @@
 #include "ccTypes.h"
 #include <cocos2d.h>
 #include <sol/sol.hpp>
+#include <Geode/Geode.hpp>
 
 //DEPENDS: Color3B
 

@@ -1,6 +1,7 @@
 // Color3B.cpp
 #include "ccTypes.h"
 #include <sol/sol.hpp>
+#include <Geode/Geode.hpp>
 
 
 using T = cocos2d::ccColor3B;

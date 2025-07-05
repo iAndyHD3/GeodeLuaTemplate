@@ -155,7 +155,6 @@ inline void my_panic(sol::optional<std::string> maybe_msg) {
 		const std::string& msg = maybe_msg.value();
 		geode::log::error("LUA ERROR: {}", msg);
 	}
-	// When this function exits, Lua will exhibit default behavior and abort()
 }
 
 

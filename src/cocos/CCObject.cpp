@@ -2,10 +2,9 @@
 #include <cocos2d.h>
 #include <sol/forward.hpp>
 #include <sol/sol.hpp>
-using namespace cocos2d;
+#include <Geode/Geode.hpp>
 
-#include <cocos2d.h>
-#include <sol/sol.hpp>
+
 using namespace cocos2d;
 
 int CCObject_release(lua_State* L) {

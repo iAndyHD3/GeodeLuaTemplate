@@ -2,6 +2,7 @@
 #include <sol/inheritance.hpp>
 #include <sol/sol.hpp>
 #include <sol/types.hpp>
+#include <Geode/Geode.hpp>
 
 using namespace cocos2d;
 
@@ -1848,7 +1849,6 @@ int CCNode_setTag(lua_State* L) {
 }
 
 int CCNode_call(lua_State* L) {
-    geode::log::info("HELLO WORLD!!!");
     if (lua_gettop(L) < 1)
         return luaL_error(L, "Expected 1 argument for cast function");
 
