@@ -10,7 +10,7 @@ void register_ccColor3B(sol::state& lua) {
 
     struct color3b_custom_ctor {
         cocos2d::ccColor3B operator()(float r, float g, float b) {
-            return cocos2d::ccColor3B(static_cast<unsigned char>(r), static_cast<unsigned char>(g), static_cast<unsigned char>(b));
+            return cocos2d::ccColor3B{static_cast<unsigned char>(r), static_cast<unsigned char>(g), static_cast<unsigned char>(b)};
         }
     };
 
