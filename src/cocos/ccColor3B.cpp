@@ -15,7 +15,7 @@ void register_ccColor3B(sol::state& lua) {
     };
 
     auto t = lua.new_usertype<T>("ccColor3B",
-        sol::constructors<T(), T(const T&), T(const T&&), color3b_custom_ctor>());
+        sol::constructors<T(), T(const T&), color3b_custom_ctor>());
     t["r"] = &cocos2d::ccColor3B::r;
     t["g"] = &cocos2d::ccColor3B::g;
     t["b"] = &cocos2d::ccColor3B::b;
